@@ -1,4 +1,4 @@
-#create Plot1 graph Global Active Power
+#create Plot2 graph Global Active Power
 data<- read.table("household_power_consumption.txt", sep=";", header=T,
                   colClasses = "character", na.strings = "?")
 library(magrittr)

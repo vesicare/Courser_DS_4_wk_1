@@ -1,4 +1,4 @@
-#create Plot3 graph Energy submetering versus day of week
+#create Plot4 graph Energy submetering versus day of week
 data<- read.table("household_power_consumption.txt", sep=";", header=T,
                   colClasses = "character", na.strings = "?")
 library(magrittr)
